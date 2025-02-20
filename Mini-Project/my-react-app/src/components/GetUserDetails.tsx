@@ -66,7 +66,7 @@ const GetUserDetails: React.FC = () => {
                 <p>Suite: {user.address.suite}</p>
                 <p>City: {user.address.city}</p>
                 <p>Zip Code: {user.address.zipcode}</p>
-                <p>Latitue: {user.address.geo.lat}</p>
+                <p>Latitude: {user.address.geo.lat}</p>
                 <p>Longitude: {user.address.geo.lng}</p>
             </div>
         </Container>
